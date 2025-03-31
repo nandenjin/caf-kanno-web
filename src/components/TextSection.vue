@@ -6,7 +6,7 @@
 
 <style scoped>
 section {
-  width: calc(100vw - 1em * 2);
+  width: calc(100vw - 1.5rem * 2);
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;

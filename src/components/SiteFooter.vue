@@ -24,7 +24,7 @@
 <style scoped>
 footer {
   margin: 6rem auto;
-  width: calc(100vw - 1em * 2);
+  width: calc(100vw - 1.5em * 2);
   max-width: 800px;
   font-size: 0.8em;
   line-height: 1.8em;
