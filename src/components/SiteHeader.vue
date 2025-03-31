@@ -1,9 +1,10 @@
 <template>
   <header>
     <h1>boring process たいくつな掘削かてい</h1>
-    <div>
-      2025.5.8 - 6.28（木・金・土）<wbr />12:00 - 19:00
-      現代芸術振興財団（六本木）
+    <div class="abstract">
+      <span>2025.5.8 - 6.28（木・金・土）</span>
+      <span>12:00 - 19:00</span>
+      <span>現代芸術振興財団（六本木）</span>
     </div>
   </header>
 </template>
@@ -27,5 +28,12 @@ h1 {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+
+.abstract {
+  span {
+    display: inline-block;
+    margin-left: 0.5em;
+  }
 }
 </style>
