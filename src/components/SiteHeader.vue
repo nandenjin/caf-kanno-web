@@ -2,7 +2,7 @@
   <header>
     <h1>boring process たいくつな掘削かてい</h1>
     <div class="abstract">
-      <span>2025.5.8 - 6.28（木・金・土）</span>
+      <span>2025.5.29 - 6.28（水・木・金・土）</span>
       <span>12:00 - 19:00</span>
       <span>現代芸術振興財団（六本木）</span>
     </div>
