@@ -6,7 +6,7 @@ import TextSection from "../TextSection.vue";
   <TextSection>
     <h2>開催概要</h2>
     <p>
-      <strong>菅野歩美 個展『boring process たいくつな掘削かてい』</strong>
+      <strong>菅野歩美 個展『Boring process たいくつな掘削かてい』</strong>
     </p>
     <ul>
       <li>2025.5.29 - 6.28（水・木・金・土）12:00 - 19:00</li>
