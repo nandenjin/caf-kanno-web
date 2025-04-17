@@ -2,7 +2,7 @@
   <footer>
     <div class="logo-container">
       <a
-        href="https://www.gendai-art.or.jp/"
+        href="https://gendai-art.org/"
         target="_blank"
         rel="noopener noreferrer"
       >
