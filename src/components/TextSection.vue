@@ -34,4 +34,11 @@ section {
   margin-bottom: 0.5em;
   line-height: 1.5em;
 }
+
+:deep(hr) {
+  width: 50%;
+  border: none;
+  border-top: 1px solid #000;
+  margin: 4rem auto;
+}
 </style>
