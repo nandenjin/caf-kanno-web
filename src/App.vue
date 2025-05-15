@@ -22,6 +22,6 @@ import SectionGreeting from "./components/sections/SectionGreeting.vue";
 
 <style scoped>
 .app {
-  margin: 6rem auto;
+  margin: 0 auto 6rem;
 }
 </style>
