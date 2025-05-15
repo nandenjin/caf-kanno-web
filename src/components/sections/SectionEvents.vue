@@ -5,7 +5,7 @@ import TextSection from "../TextSection.vue";
 <template>
   <TextSection>
     <h2>イベント</h2>
-    <h3>ささやかなオープニングパーティー</h3>
+    <h3>オープニングパーティー</h3>
     <time datetime="2025-05-29 17:00:00">5/29（木） 17:00-</time>
     <h3>トークイベント</h3>
     <time datetime="2025-06-07 14:00:00">6/20（土） 18:00-19:00</time>
