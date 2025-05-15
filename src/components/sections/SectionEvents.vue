@@ -19,8 +19,8 @@ import TextSection from "../TextSection.vue";
       <img
         src="../../assets/profile_yuki.jpg"
         alt=""
-        width="200"
-        height="135"
+        width="150"
+        height="101"
       />
       <div>
         <h4>ゲスト：結城敬介（ジャグリングパフォーマー）</h4>
@@ -36,7 +36,7 @@ import TextSection from "../TextSection.vue";
 <style scoped>
 .guest-profile {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: auto 1fr;
   gap: 2rem;
   margin: 2em 0;
 

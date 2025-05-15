@@ -8,8 +8,8 @@ import TextSection from "../TextSection.vue";
       <img
         src="../../assets/profile_kanno.jpg"
         alt=""
-        width="200"
-        height="200"
+        width="150"
+        height="150"
       />
       <div>
         <h3>菅野歩美</h3>
@@ -28,7 +28,7 @@ import TextSection from "../TextSection.vue";
 <style scoped>
 .profile {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: auto 1fr;
   gap: 2rem;
   margin: 2em 0;
   font-size: 0.9em;
