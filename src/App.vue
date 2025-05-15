@@ -4,6 +4,7 @@ import SiteFooter from "./components/SiteFooter.vue";
 import SectionStatement from "./components/sections/SectionStatement.vue";
 import SectionProfile from "./components/sections/SectionProfile.vue";
 import SectionOverview from "./components/sections/SectionOverview.vue";
+import SectionEvents from "./components/sections/SectionEvents.vue";
 import SectionGreeting from "./components/sections/SectionGreeting.vue";
 </script>
 
@@ -14,6 +15,7 @@ import SectionGreeting from "./components/sections/SectionGreeting.vue";
     <SectionStatement />
     <SectionProfile />
     <SectionOverview />
+    <SectionEvents />
     <SiteFooter />
   </div>
 </template>

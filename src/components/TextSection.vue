@@ -30,6 +30,16 @@ section {
   margin: 1.5em 0 0 0;
 }
 
+:deep(h3) {
+  font-size: 1.2em;
+  margin: 2em 0 1em;
+}
+
+:deep(h4) {
+  font-size: 1em;
+  margin: 1.5em 0 0.5em;
+}
+
 :deep(li) {
   margin-bottom: 0.5em;
   line-height: 1.5em;
@@ -40,5 +50,11 @@ section {
   border: none;
   border-top: 1px solid #000;
   margin: 4rem auto;
+}
+
+:deep(a) {
+  color: #000;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
 </style>
