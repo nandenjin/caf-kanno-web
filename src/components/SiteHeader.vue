@@ -74,7 +74,7 @@ h1 {
   text-indent: 100vw;
   overflow: hidden;
   aspect-ratio: 135/56;
-  width: 30vw;
+  width: 40vw;
   margin: 3rem auto;
   user-select: none;
   white-space: nowrap;
@@ -83,8 +83,9 @@ h1 {
   background-size: contain;
   background-position: center;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1000px) {
     width: 75vw;
+    max-width: 600px;
   }
 }
 
