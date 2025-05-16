@@ -58,7 +58,6 @@ header {
   margin: auto;
   object-fit: cover;
   z-index: -1;
-  filter: blur(0.2rem);
 }
 
 .title {
