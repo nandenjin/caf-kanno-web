@@ -53,8 +53,8 @@ header {
   left: 0;
   bottom: 0;
   right: 0;
-  width: calc(100dvw - 7vmax);
-  height: calc(100dvh - 7vmax);
+  width: calc(100svw - 7vmax);
+  height: calc(100svh - 7vmax);
   margin: auto;
   object-fit: cover;
   z-index: -1;
