@@ -5,8 +5,11 @@ import TextSection from "../TextSection.vue";
 <template>
   <TextSection>
     <h2>イベント</h2>
-    <h3>オープニングパーティー</h3>
+    <h3>オープニングパーティー「Reception Room」</h3>
     <time datetime="2025-05-29 17:00:00">5/29（木） 17:00-</time>
+    <p>
+      本展覧会のイメージに合わせた、ささやかなお菓子をご用意しております。該当の時間帯には作家も在廊いたしますので、どなたさまもどうぞお気軽にお立ち寄りください。
+    </p>
     <h3>トークイベント「Drawing Room」</h3>
     <time datetime="2025-06-07 14:00:00">6/20（土） 18:00-19:00</time>
     <p>
