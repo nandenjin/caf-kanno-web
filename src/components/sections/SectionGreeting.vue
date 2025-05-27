@@ -5,7 +5,8 @@ import TextSection from "../TextSection.vue";
 <template>
   <TextSection>
     <p>
-      この度、現代芸術振興財団は菅野歩美個展「Boring process
+      この度、現代芸術振興財団はCAF賞2023 最優秀賞受賞作家 菅野歩美 個展「Boring
+      process
       たいくつな掘削かてい」を開催いたします。菅野歩美は1994年、東京都生まれ。本年2025年に東京藝術大学大学院美術研究科博士後期過程修了、現在は東京を拠点に活動をしています。
     </p>
     <p>
