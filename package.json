@@ -13,7 +13,7 @@
     "vue": "3.5.13"
   },
   "devDependencies": {
-    "@types/node": "22.15.21",
+    "@types/node": "22.15.30",
     "@vitejs/plugin-vue": "5.2.4",
     "sharp": "0.34.1",
     "svgo": "3.3.2",
