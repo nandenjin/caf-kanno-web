@@ -6,17 +6,20 @@ import SectionProfile from "./components/sections/SectionProfile.vue";
 import SectionOverview from "./components/sections/SectionOverview.vue";
 import SectionEvents from "./components/sections/SectionEvents.vue";
 import SectionGreeting from "./components/sections/SectionGreeting.vue";
+import InteractiveViewProvider from "./components/InteractiveViewProvider.vue";
 </script>
 
 <template>
   <div class="app">
-    <SiteHeader />
-    <SectionGreeting />
-    <SectionStatement />
-    <SectionProfile />
-    <SectionOverview />
-    <SectionEvents />
-    <SiteFooter />
+    <InteractiveViewProvider>
+      <SiteHeader />
+      <SectionGreeting />
+      <SectionStatement />
+      <SectionProfile />
+      <SectionOverview />
+      <SectionEvents />
+      <SiteFooter />
+    </InteractiveViewProvider>
   </div>
 </template>
 

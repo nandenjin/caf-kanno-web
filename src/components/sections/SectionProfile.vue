@@ -30,7 +30,7 @@ import TextSection from "../TextSection.vue";
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 2rem;
-  margin: 2em 0;
+  margin: 5rem 0;
   font-size: 0.9em;
 
   @media screen and (max-width: 800px) {
