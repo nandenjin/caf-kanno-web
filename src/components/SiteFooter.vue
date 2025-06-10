@@ -1,8 +1,12 @@
 <script setup lang="ts">
 import InteractiveView from "./InteractiveView.vue";
+import PrinterClock from "./PrinterClock.vue";
 </script>
 
 <template>
+  <div class="clock">
+    <PrinterClock />
+  </div>
   <footer>
     <div class="visual">
       <InteractiveView
@@ -40,6 +44,14 @@ import InteractiveView from "./InteractiveView.vue";
 </template>
 
 <style scoped>
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+}
+
 footer {
   margin: 6rem auto;
   width: calc(100vw - 1.5em * 2);

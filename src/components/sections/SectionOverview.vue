@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import InteractiveView from "../InteractiveView.vue";
+import DottedTitle from "../DottedTitle.vue";
 import TextSection from "../TextSection.vue";
 </script>
 
 <template>
   <TextSection>
-    <h2>開催概要</h2>
+    <DottedTitle style="margin: 6rem 0 2rem">Information</DottedTitle>
     <div class="column-root">
       <div class="text">
         <p>
