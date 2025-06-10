@@ -16,6 +16,7 @@ import { onMounted, ref } from "vue";
 const now = ref(new Date());
 
 onMounted(() => {
+  // It will be updated only on mount, as like as a real stamp machine.
   now.value = new Date();
 });
 </script>
