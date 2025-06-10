@@ -153,6 +153,23 @@ export class InteractiveViewHub {
 
   destroy() {
     this.running = false;
+
+    // Dispose of the renderer
+    this.renderer.dispose();
+
+    // Dispose of the effect composer
+    this.effectComposer.dispose();
+
+    // Dispose of the controls
+    this.control.dispose();
+
+    // Dispose of the stats and GUI
+    if (this.stats.dom.parentNode) {
+      this.stats.dom.parentNode.removeChild(this.stats.dom);
+    }
+    if (this.gui.domElement.parentNode) {
+      this.gui.domElement.parentNode.removeChild(this.gui.domElement);
+    }
   }
 }
 
