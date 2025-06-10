@@ -1,10 +1,11 @@
 <script setup lang="ts">
+import DottedTitle from "../DottedTitle.vue";
 import TextSection from "../TextSection.vue";
 </script>
 
 <template>
   <TextSection>
-    <h2>イベント</h2>
+    <DottedTitle style="margin: 6rem 0 2rem">Event</DottedTitle>
     <h3>オープニングパーティー「Reception Room」</h3>
     <time datetime="2025-05-29 17:00:00">5/29（木） 17:00-</time>
     <p>
