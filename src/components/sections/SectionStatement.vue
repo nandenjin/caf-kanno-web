@@ -55,10 +55,16 @@ import { Vector3 } from "three";
   .column-root {
     grid-template-columns: 1fr;
     gap: 2em;
-  }
-  .column-root .text {
-    padding-top: 0;
-    border-top: none;
+
+    .text {
+      padding-top: 0;
+      border-top: none;
+      grid-row: 2;
+    }
+
+    .visual {
+      grid-row: 1;
+    }
   }
 }
 </style>
