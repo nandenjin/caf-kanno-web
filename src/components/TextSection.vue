@@ -10,7 +10,7 @@ section {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3rem;
+  margin-top: 4.5rem;
 }
 
 @media screen and (min-width: 1500px) {

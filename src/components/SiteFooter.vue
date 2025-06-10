@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import InteractiveView from "./InteractiveView.vue";
 import PrinterClock from "./PrinterClock.vue";
 </script>
 
@@ -7,6 +8,20 @@ import PrinterClock from "./PrinterClock.vue";
     <PrinterClock />
   </div>
   <footer>
+    <div class="visual">
+      <InteractiveView
+        :width="300"
+        :height="100"
+        :onRender="
+          (camera, progress, control) => {
+            camera.fov = 30;
+            camera.position.set(0.8 + progress / 5, 0.5, 1.4);
+            control.target.set(0 + progress / 5, 0, 3);
+            camera.lookAt(control.target);
+          }
+        "
+      />
+    </div>
     <div class="logo-container">
       <a
         href="https://gendai-art.org/"
@@ -43,6 +58,11 @@ footer {
   max-width: 800px;
   font-size: 0.8em;
   line-height: 1.8em;
+}
+.visual {
+  display: flex;
+  justify-content: center;
+  margin: 6em 0;
 }
 .logo-container {
   margin: 1rem auto;

@@ -49,12 +49,16 @@ import TextSection from "../TextSection.vue";
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 2rem;
-  margin: 2em 0;
+  margin: 4em 0;
   font-size: 0.9rem;
 
   @media screen and (max-width: 800px) {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+
+  h3 {
+    margin-top: 1em;
   }
 
   h4 {
