@@ -31,7 +31,6 @@ const { width, height, onRender } = defineProps<{
 const onScroll = () => {
   const bound = root.value?.getBoundingClientRect();
   if (!bound) return;
-  if (!root.value) return;
 
   const hub = interactiveViewHub?.value;
   if (!hub) {
