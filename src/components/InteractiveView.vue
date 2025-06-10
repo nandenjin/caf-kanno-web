@@ -134,6 +134,6 @@ onUnmounted(() => {
 
 <style scoped>
 .container {
-  transition: opacity 1s ease-in-out 0.5s;
+  transition: opacity 1s ease-in-out 0.2s;
 }
 </style>
