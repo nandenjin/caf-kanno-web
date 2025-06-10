@@ -1,10 +1,11 @@
 <script setup lang="ts">
+import DottedTitle from "../DottedTitle.vue";
 import TextSection from "../TextSection.vue";
 </script>
 
 <template>
   <TextSection>
-    <h2>開催概要</h2>
+    <DottedTitle style="margin: 6rem 0 2rem">Information</DottedTitle>
     <p>
       <strong>菅野歩美 個展『Boring process たいくつな掘削かてい』</strong>
     </p>
