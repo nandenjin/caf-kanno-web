@@ -3,6 +3,7 @@
 ![Build Status](https://img.shields.io/github/actions/workflow/status/nandenjin/caf-kanno-web/push.yaml?style=flat-square)
 ![Vue.js](https://img.shields.io/github/package-json/dependency-version/nandenjin/caf-kanno-web/vue?style=flat-square&logo=vue.js)
 ![Vite](https://img.shields.io/github/package-json/dependency-version/nandenjin/caf-kanno-web/dev/vite?style=flat-square&logo=vite)
+![Three.js](https://img.shields.io/github/package-json/dependency-version/nandenjin/caf-kanno-web/three?style=flat-square&logo=three.js)
 
 https://gendai-art.org/caf/kanno
 
