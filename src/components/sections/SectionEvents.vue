@@ -5,7 +5,7 @@ import TextSection from "../TextSection.vue";
 
 <template>
   <TextSection>
-    <DottedTitle style="margin: 6rem 0 2rem">Event</DottedTitle>
+    <DottedTitle style="margin: 6rem 0 2rem">Events</DottedTitle>
     <h3>オープニングパーティー「Reception Room」</h3>
     <time datetime="2025-05-29 17:00:00">5/29（木） 17:00-</time>
     <p>
