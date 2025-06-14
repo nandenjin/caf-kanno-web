@@ -24,7 +24,6 @@ import PrinterClock from "./PrinterClock.vue";
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: -2;
   margin: auto;
   height: 3rem;
   font-size: 3rem;
@@ -92,11 +91,10 @@ header {
   left: 0;
   bottom: 0;
   right: 0;
-  width: calc(100svw - 7vmax);
-  height: calc(100svh - 7vmax);
+  width: 100svw;
+  height: 100svh;
   margin: auto;
   object-fit: cover;
-  z-index: -1;
   animation: lazy-in 1s ease-in-out 2.5s both;
 }
 
