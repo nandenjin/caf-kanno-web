@@ -49,7 +49,7 @@ import PrinterClock from "./PrinterClock.vue";
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  margin-top: 3rem;
+  margin-top: 6rem;
 }
 
 footer {

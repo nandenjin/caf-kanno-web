@@ -6,6 +6,7 @@ import SectionProfile from "./components/sections/SectionProfile.vue";
 import SectionOverview from "./components/sections/SectionOverview.vue";
 import SectionEvents from "./components/sections/SectionEvents.vue";
 import SectionGreeting from "./components/sections/SectionGreeting.vue";
+import SectionCredit from "./components/sections/SectionCredit.vue";
 import InteractiveViewProvider from "./components/InteractiveViewProvider.vue";
 </script>
 
@@ -18,6 +19,7 @@ import InteractiveViewProvider from "./components/InteractiveViewProvider.vue";
       <SectionProfile />
       <SectionOverview />
       <SectionEvents />
+      <SectionCredit />
       <SiteFooter />
     </InteractiveViewProvider>
   </div>
