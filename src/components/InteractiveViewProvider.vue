@@ -17,6 +17,8 @@ onMounted(() => {
 
     document.body.appendChild(interactiveViewHub.value.stats.dom);
     document.body.appendChild(interactiveViewHub.value.gui.domElement);
+  } else {
+    console.info("🍊 Tips: Enable dev mode by adding `?dev` to the URL");
   }
 });
 </script>
