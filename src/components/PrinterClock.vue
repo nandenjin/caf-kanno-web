@@ -1,5 +1,9 @@
 <template>
-  <div class="printer font-dotted">
+  <div
+    class="printer font-dotted"
+    :class="{ 'is-active': isActive }"
+    ref="root"
+  >
     {{ now.getDate()
     }}<span
       class="day"
@@ -11,13 +15,41 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
+import { onMounted, onUnmounted, ref, watch } from "vue";
 
 const now = ref(new Date());
+const isActive = ref(false);
+const root = ref<HTMLElement | null>(null);
+
+let observer = ref<IntersectionObserver>(
+  new IntersectionObserver(
+    (entries) => {
+      const entry = entries[0];
+      if (entry.isIntersecting) {
+        isActive.value = true;
+        now.value = new Date();
+      }
+    },
+    { threshold: 0 }
+  )
+);
 
 onMounted(() => {
-  // It will be updated only on mount, as like as a real stamp machine.
-  now.value = new Date();
+  if (root.value) {
+    observer.value.observe(root.value);
+  }
+});
+
+watch(isActive, (active) => {
+  if (active) {
+    observer.value?.disconnect();
+  }
+});
+
+onUnmounted(() => {
+  if (observer.value) {
+    observer.value.disconnect();
+  }
 });
 </script>
 
@@ -29,6 +61,35 @@ onMounted(() => {
     aspect-ratio: 65.75 / 79.5;
     background-image: url("../assets/days.svg");
     background-size: cover;
+  }
+
+  &:not(.is-active) {
+    visibility: hidden;
+  }
+
+  &.is-active {
+    animation: blink 0.7s ease 0.5s both;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
   }
 }
 </style>

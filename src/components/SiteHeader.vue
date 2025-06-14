@@ -28,28 +28,6 @@ import PrinterClock from "./PrinterClock.vue";
   margin: auto;
   height: 3rem;
   font-size: 3rem;
-  animation: blink 0.7s ease 0.5s both 1;
-}
-
-@keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  10% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  40% {
-    opacity: 0;
-  }
-  70% {
-    opacity: 1;
-  }
 }
 
 header {
