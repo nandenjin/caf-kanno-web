@@ -21,7 +21,7 @@ section {
 }
 
 :deep(p) {
-  line-height: 1.8em;
+  line-height: 2em;
   margin: 0.8em 0 0 0;
 }
 

@@ -92,8 +92,12 @@ header {
   transform: translate(-50%, -50%);
   width: 80vw;
   color: white;
-  font-size: 1.4rem;
+  font-size: 2vw;
   animation: lazy-in 1s ease-in-out 3s both;
+
+  @media screen and (max-width: 800px) {
+    font-size: 4.5vw;
+  }
 }
 
 h1 {
@@ -116,7 +120,6 @@ h1 {
 }
 
 .abstract {
-  font-size: 0.8em;
   span {
     display: inline-block;
     margin-left: 0.5em;
