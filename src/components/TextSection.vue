@@ -48,12 +48,12 @@ section {
 :deep(hr) {
   width: 50%;
   border: none;
-  border-top: 1px solid #000;
+  border-top: 1px solid var(--color-text);
   margin: 4rem auto;
 }
 
 :deep(a) {
-  color: #000;
+  color: var(--color-text);
   text-decoration: underline;
   text-underline-offset: 0.2em;
 }
