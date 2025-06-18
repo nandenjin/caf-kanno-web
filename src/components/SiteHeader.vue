@@ -24,20 +24,24 @@ import PrinterClock from "./PrinterClock.vue";
   left: 0;
   bottom: 0;
   right: 0;
+  z-index: 0;
   margin: auto;
   height: 3rem;
   font-size: 3rem;
+  filter: invert(1);
 }
 
 header {
   position: relative;
   text-align: center;
   height: 100vh;
+  background-color: #111;
 
   &::after {
     content: "";
     display: block;
     position: absolute;
+    z-index: 2;
     bottom: calc(2rem + 3.5vmax);
     left: 0;
     right: 0;
@@ -47,7 +51,7 @@ header {
     border: 0.15rem solid white;
     border-style: none none solid solid;
     transform: rotate(-45deg) translateX(50%);
-    animation: jump 1s ease-in-out infinite;
+    animation: jump 1s ease-in-out infinite, lazy-in 1s ease-in-out 4s both;
   }
 }
 
@@ -73,6 +77,7 @@ header {
   height: 100svh;
   margin: auto;
   object-fit: cover;
+  z-index: 1;
   animation: lazy-in 1s ease-in-out 2.5s both;
 }
 
@@ -94,6 +99,7 @@ header {
   color: white;
   font-size: 2vw;
   animation: lazy-in 1s ease-in-out 3s both;
+  z-index: 2;
 
   @media screen and (max-width: 800px) {
     font-size: 4.5vw;
