@@ -1,21 +1,12 @@
 :root {
   font-family: serif;
   font-size: 15px;
-
-  --color-text: #fff;
-  --color-background: #222;
 }
 
 @media screen and (min-width: 1875px) {
   :root {
     font-size: 0.8vw;
   }
-}
-
-html,
-body {
-  color: var(--color-text);
-  background-color: var(--color-background);
 }
 
 .font-dotted {
