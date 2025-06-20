@@ -34,7 +34,7 @@ import PrinterClock from "./PrinterClock.vue";
 header {
   position: relative;
   text-align: center;
-  height: 100vh;
+  height: 100svh;
   background-color: #111;
 
   &::after {
