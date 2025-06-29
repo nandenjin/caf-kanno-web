@@ -18,6 +18,7 @@ import { Vector3 } from "three";
         <p>
           退屈を意味する「Boring」と、掘削作業を意味する「Boring」は、語源は異なるものの、偶然にも同じ綴りと音を持つ言葉だ。本展示では、この退屈な過程を通して、私がこれまで興味を持ってきたものの根っこを掘り起こすものにしたい。そうすることで、その根の先に思いがけないものが繋がっていることを発見することができるはずだ。
         </p>
+        <p style="text-align: right">菅野歩美</p>
       </div>
       <div class="visual">
         <InteractiveView
