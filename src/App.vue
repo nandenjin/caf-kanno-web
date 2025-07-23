@@ -8,6 +8,7 @@ import SectionEvents from "./components/sections/SectionEvents.vue";
 import SectionGreeting from "./components/sections/SectionGreeting.vue";
 import SectionCredit from "./components/sections/SectionCredit.vue";
 import InteractiveViewProvider from "./components/InteractiveViewProvider.vue";
+import SectionPhoto from "./components/sections/SectionPhoto.vue";
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import InteractiveViewProvider from "./components/InteractiveViewProvider.vue";
       <SiteHeader />
       <SectionGreeting />
       <SectionStatement />
+      <SectionPhoto />
       <SectionProfile />
       <SectionOverview />
       <SectionEvents />
