@@ -11,6 +11,7 @@ import TextSection from "../TextSection.vue";
       <li>施工：小泉 立、加藤 健吾（Dottete Design）</li>
       <li>リサーチ協力：古川 智彬</li>
       <li>Web：稲田 和巳</li>
+      <li>会場写真：長谷 なつみ</li>
       <li>
         Special thanks：山中 優太、宝田 勇樹、太田 茜、新井 毬子、三浦 エリ
       </li>
