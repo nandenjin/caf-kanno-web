@@ -12,7 +12,6 @@ const isActive = ref(false);
     <iframe
       v-if="isActive"
       :src="`https://www.youtube.com/embed/${videoId}?autoplay=1`"
-      frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
       width="100%"
