@@ -7,7 +7,7 @@ import PrinterClock from "./PrinterClock.vue";
     <ClientOnly>
       <PrinterClock class="printer" />
     </ClientOnly>
-    <img class="cover" src="../assets/untitled04.jpg" alt="" />
+    <img class="cover" src="../assets/untitled04.jpg?format=webp" alt="" />
     <div class="title">
       <span class="font-dotted">Ayumi Kanno Solo Exhibition</span>
       <h1>boring process たいくつな掘削かてい</h1>
