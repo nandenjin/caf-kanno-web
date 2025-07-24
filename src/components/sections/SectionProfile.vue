@@ -12,7 +12,7 @@ import TextSection from "../TextSection.vue";
         height="150"
       />
       <div>
-        <h3>菅野歩美</h3>
+        <h2>菅野歩美</h2>
         <p>
           1994年生まれ。2025年東京藝術大学大学院美術研究科博士後期課程（油画）修了。
         </p>
