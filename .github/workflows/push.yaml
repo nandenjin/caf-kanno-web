@@ -25,13 +25,3 @@ jobs:
 
       - name: Build
         run: npm run build
-
-  build-container:
-    runs-on: ubuntu-latest
-    needs: build-files
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Build container
-        run: docker build .
