@@ -5,22 +5,25 @@ import PrinterClock from "./PrinterClock.vue";
 
 <template>
   <div class="clock">
-    <PrinterClock />
+    <ClientOnly>
+      <PrinterClock />
+    </ClientOnly>
   </div>
   <footer>
     <div class="visual">
-      <InteractiveView
-        :width="300"
-        :height="100"
-        :onRender="
-          (camera, progress, control) => {
-            camera.fov = 30;
-            camera.position.set(0.8 + progress / 5, 0.5, 1.4);
-            control.target.set(0 + progress / 5, 0, 3);
-            camera.lookAt(control.target);
-          }
-        "
-      />
+      <ClientOnly>
+        <InteractiveView
+          :width="300"
+          :height="100"
+          :onRender="
+            (camera, progress, control) => {
+              camera.fov = 30;
+              camera.position.set(0.8 + progress / 5, 0.5, 1.4);
+              control.target.set(0 + progress / 5, 0, 3);
+              camera.lookAt(control.target);
+            }
+          "
+      /></ClientOnly>
     </div>
     <div class="logo-container">
       <a

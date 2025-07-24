@@ -18,18 +18,19 @@ import TextSection from "../TextSection.vue";
         </ul>
       </div>
       <div class="visual">
-        <InteractiveView
-          :width="200"
-          :height="200"
-          :onRender="
-            (camera, progress, control) => {
-              camera.fov = 60;
-              camera.position.set(1.4, 0.5, -0.2 + progress / 5);
-              control.target.set(0, 0.2, 0.2 + progress / 5);
-              camera.lookAt(control.target);
-            }
-          "
-        />
+        <ClientOnly>
+          <InteractiveView
+            :width="200"
+            :height="200"
+            :onRender="
+              (camera, progress, control) => {
+                camera.fov = 60;
+                camera.position.set(1.4, 0.5, -0.2 + progress / 5);
+                control.target.set(0, 0.2, 0.2 + progress / 5);
+                camera.lookAt(control.target);
+              }
+            "
+        /></ClientOnly>
       </div>
     </div>
   </TextSection>
