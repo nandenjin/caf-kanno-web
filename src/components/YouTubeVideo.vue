@@ -22,6 +22,7 @@ const isActive = ref(false);
         class="thumbnail"
         :src="`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`"
         alt=""
+        aria-label="クリックしてビデオを再生"
         loading="lazy"
       />
     </div>
