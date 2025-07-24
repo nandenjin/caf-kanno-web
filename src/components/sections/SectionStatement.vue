@@ -21,18 +21,19 @@ import { Vector3 } from "three";
         <p style="text-align: right">菅野歩美</p>
       </div>
       <div class="visual">
-        <InteractiveView
-          :width="200"
-          :height="300"
-          :onRender="
-            (camera, progress, control) => {
-              camera.fov = 60;
-              camera.position.set(0.586416, 1, 3.3 + progress / 5);
-              control.target = new Vector3(0.2585, 0.565, 3.428);
-              camera.lookAt(control.target);
-            }
-          "
-        />
+        <ClientOnly>
+          <InteractiveView
+            :width="200"
+            :height="300"
+            :onRender="
+              (camera, progress, control) => {
+                camera.fov = 60;
+                camera.position.set(0.586416, 1, 3.3 + progress / 5);
+                control.target = new Vector3(0.2585, 0.565, 3.428);
+                camera.lookAt(control.target);
+              }
+            "
+        /></ClientOnly>
       </div>
     </div>
   </TextSection>
