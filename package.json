@@ -19,7 +19,7 @@
     "@types/node": "22.16.5",
     "@types/three": "0.178.1",
     "@unhead/vue": "2.0.12",
-    "@vitejs/plugin-vue": "6.0.0",
+    "@vitejs/plugin-vue": "6.0.1",
     "sharp": "0.34.3",
     "svgo": "4.0.0",
     "typescript": "5.8.3",
