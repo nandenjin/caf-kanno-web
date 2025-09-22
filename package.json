@@ -27,6 +27,6 @@
     "vite-imagetools": "8.0.0",
     "vite-plugin-image-optimizer": "2.0.2",
     "vite-ssg": "28.1.0",
-    "vue-tsc": "3.0.7"
+    "vue-tsc": "3.0.8"
   }
 }
