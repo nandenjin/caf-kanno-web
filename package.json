@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "lil-gui": "0.20.0",
+    "lil-gui": "0.21.0",
     "normalize.css": "8.0.1",
     "stats.js": "0.17.0",
     "three": "0.180.0",
