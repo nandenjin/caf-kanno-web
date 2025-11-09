@@ -1,6 +1,6 @@
 <template>
   <TextSection>
-    <DottedTitle>Archive</DottedTitle>
+    <DottedTitle id="archive">Archive</DottedTitle>
     <p>展覧会の内容をまとめたカタログをご覧いただけます。</p>
     <ul>
       <li>作家による展示ステートメント</li>
