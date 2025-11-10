@@ -16,7 +16,7 @@
       <p>
         <a href="https://gendai-art.org/catalog/" target="_blank" rel="noopener"
           >カタログのお申し込み</a
-        >・<a href="/catalog.pdf" target="_blank" rel="noopener"
+        >・<a href="./catalog.pdf" target="_blank" rel="noopener"
           >PDFでダウンロード（31MB）</a
         ><br />
       </p>
