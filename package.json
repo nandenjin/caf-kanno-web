@@ -12,7 +12,7 @@
     "lil-gui": "0.21.0",
     "normalize.css": "8.0.1",
     "stats.js": "0.17.0",
-    "three": "0.181.2",
+    "three": "0.182.0",
     "vue": "3.5.25"
   },
   "devDependencies": {
