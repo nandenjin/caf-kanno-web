@@ -16,7 +16,7 @@
     "vue": "3.5.26"
   },
   "devDependencies": {
-    "@types/node": "24.10.4",
+    "@types/node": "24.10.6",
     "@types/three": "0.182.0",
     "@unhead/vue": "2.1.1",
     "@vitejs/plugin-vue": "6.0.3",
