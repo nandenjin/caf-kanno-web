@@ -12,12 +12,12 @@
     "lil-gui": "0.21.0",
     "normalize.css": "8.0.1",
     "stats.js": "0.17.0",
-    "three": "0.183.0",
+    "three": "0.183.1",
     "vue": "3.5.28"
   },
   "devDependencies": {
     "@types/node": "24.10.13",
-    "@types/three": "0.183.0",
+    "@types/three": "0.183.1",
     "@unhead/vue": "2.1.4",
     "@vitejs/plugin-vue": "6.0.4",
     "sharp": "0.34.5",
