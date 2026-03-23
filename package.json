@@ -22,7 +22,7 @@
     "@vitejs/plugin-vue": "6.0.5",
     "sharp": "0.34.5",
     "svgo": "4.0.1",
-    "typescript": "5.9.3",
+    "typescript": "6.0.2",
     "vite": "8.0.2",
     "vite-imagetools": "10.0.0",
     "vite-plugin-image-optimizer": "2.0.3",
